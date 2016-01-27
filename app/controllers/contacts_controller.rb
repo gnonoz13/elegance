@@ -1,6 +1,6 @@
 class ContactsController < ApplicationController
     
-    def new
+    def home
         @contact = Contact.new
     end
     
