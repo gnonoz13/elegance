@@ -1,0 +1,17 @@
+<%= link_to "Home page", root_path %>
+<div class="container">
+<div class="row">
+    <div class="col-md-3 text-center">
+      <%= image_tag @user.profile.avatar.url %>  
+    </div>
+    <div class="col-md-6">
+        <h1><%= @user.profile.user_name %><br/></h1>
+        <div class="well">
+            <h3>Description</h3>
+            <%= @user.profile.description %>
+        </div>    
+    </div>
+</div>
+</div>
+
+
